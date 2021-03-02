@@ -1,4 +1,21 @@
 <!--index.wxml-->
 <view class="container">
-       
+  <view class="header">
+    <text class="title">个人中心</text>
+    <view class="user-container">
+      <view class="avatar-container">
+        <b-user-btn wx:if="{{!authorized}}" open-type="getUserInfo" class="avatar-position"
+          bind:getuserinfo="onGetUserInfo">
+          <image slot="img" class="avatar" src="/images/my.png" />
+        </b-user-btn>
+        <text class="nickname">点击上方登录</text>
+      </view>
+      <!-- 登录 难点 服务器 微信支付 -->
+      <view wx:if="{{authorized}}" class="avatar-container avatar-position">
+        <image src="{{userInfo.avatarUrl}}" class="avatar" />
+        <text class="nickname">{{userInfo.nickname}}</text>
+      </view>
+    </view>
+   
+  </view>
 </view>
