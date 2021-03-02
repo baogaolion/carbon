@@ -1,4 +1,4 @@
 /**app.wxss**/
 .container {
-
+  background-color: #fff;
 } 

@@ -1,0 +1,17 @@
+.container {
+  width: 120rpx;
+  height: 100prx;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.item-img {
+    width: 55rpx;
+    height: 55rpx;
+}
+.item-text {
+  font-size: 22rpx;
+  margin-top: 15rpx;
+}

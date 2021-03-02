@@ -1,5 +1,84 @@
-.container{
+.container {
   display: inline-flex;
   flex-direction: column;
   width: 100%;
 }
+
+.my-img {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #15397c;
+  padding: 20rpx;
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 120rpx;
+  height: 120rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.user-container .nickname {
+  font-size: 36rpx;
+  color: #fff;
+  margin: 0 20rpx 0 20rpx;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-data {
+  width: 560rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30rpx 0 0 20rpx;
+}
+
+.user-data text {
+  font-size: 22rpx;
+  color: #fff;
+}
+
+.menu-container {
+  display: flex;
+  width: 685rpx;
+  height: 160rpx;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0rpx 0 30rpx;
+}
+
+.option-menu {
+  display: flex;
+  width: 705rpx;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 648rpx;
+  height: 300rpx;
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+} 
+

@@ -1,0 +1,5 @@
+
+<view class="container">
+  <image class="item-img" src="/images/tab/home.jpg" />
+  <text class="item-text">{{menuText}}</text>
+</view>

@@ -5,16 +5,60 @@ const app = getApp()
 Page({
 
   data: {
-
+    userInfo: null,
+    authorized: false,
+    images:Array
   },
+
   onLoad() {
     this._setNavBar()
-    if(!this._getFistEnter()) {
-      wx.navigateTo({
-        url: '../welcome/welcome',
-      })
+    this.userAuthorized()
+    
+    let images = [
+      {"url":"/images/welcome.png"},
+      {"url":"/images/welcome.png"},
+      {"url":"/images/welcome.png"},
+      {"url":"/images/welcome.png"}
+    ]
+   
+    this.setData({
+      images: images
+    })
+
+    // if (!this._getFistEnter()) {
+    //   wx.navigateTo({
+    //     url: '../welcome/welcome',
+    //   })
+    // }
+  },
+  onGetUserInfo(event) {
+    const userInfo = event.detail.userInfo
+    if (userInfo) {
+      // this.setData({
+      //   userInfo,
+      //   authorized: true
+      // })
+      console.log(userInfo)
     }
   },
+  userAuthorized() {
+    let that = this
+    wx.getSetting({
+      success: data => {
+        if (data.authSetting['scope.userInfo']) {
+          wx.getUserInfo({
+            success: data => {
+              this.setData({
+                authorized: true,
+                userInfo: data.userInfo
+              })
+            }
+          })
+        }
+      }
+    })
+  },
+
   _isFirstEnter(isFirst) {
     wx.setStorageSync('firstEnter', true)
   },

@@ -1,4 +1,8 @@
 {
   "usingComponents": {
+    "b-swiper":"/components/swiper-common/index",
+    "b-menu":"/components/home/home-menu/index",
+    "b-option-menu":"/components/home/option-menu/index",
+    "b-home-item":"/components/home/home-item/index"
   }
 }

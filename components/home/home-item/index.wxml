@@ -1,0 +1,7 @@
+<view class="container">
+  <text class="title">甘肃惠普项目碳减排量开发工作研讨会</text>
+  <view class="bottom-info">
+    <text class="date">2020-11-12</text>
+    <text class="content">碳中和总量 1123 kg</text>
+  </view>
+</view>

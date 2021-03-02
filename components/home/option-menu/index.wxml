@@ -1,0 +1,4 @@
+<view class="container">
+  <image class="img" src="{{menuImg}}"/>
+  <text class="text">{{menuText}}</text>
+</view>

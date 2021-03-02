@@ -8,7 +8,8 @@
   ],
   "usingComponents": {
     "van-button": "/dist/button/index",
-    "navigation-bar":"/components/navigationBar/index"
+    "navigation-bar":"/components/navigationBar/index",
+    "b-user-btn":"/components/image-button/index"
   },
   "window": {
     "backgroundTextStyle": "light",
@@ -19,39 +20,31 @@
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-      "selectedColor": "#000000",
-      "color": "#c7c7c7",
+      "selectedColor": "#15397c",
+      "color": "#333",
       "backgroundColor": "#ffffff",
       "list": [
           {
               "pagePath": "pages/index/index",
               "text": "首页",
-              "color": "#333",
-              "selectedColor": "#15397c",
               "iconPath": "/images/tab/home.jpg",
               "selectedIconPath": "/images/tab/home@sel.jpg"
           },
           {
               "pagePath": "pages/carbon/carbon",
               "text": "碳惠项目",
-              "selectedColor": "#15397c",
-              "color": "#333",
               "iconPath": "/images/tab/carbon.jpg",
               "selectedIconPath": "/images/tab/carbon@sel.jpg"
           },
           {
               "pagePath": "pages/rank/rank",
               "text": "榜单",
-              "color": "#333",
-              "selectedColor": "#15397c",
               "iconPath": "/images/tab/rank.jpg",
               "selectedIconPath": "/images/tab/rank@sel.jpg"
           },
           {
               "pagePath": "pages/my/my",
               "text": "我的",
-              "color": "#333",
-              "selectedColor": "#15397c",
               "iconPath": "/images/tab/my.jpg",
               "selectedIconPath": "/images/tab/my@sel.jpg"
           }

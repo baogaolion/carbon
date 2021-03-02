@@ -1,5 +1,46 @@
 <!--index.wxml-->
 <view class="container">
         <navigation-bar />
-        <text>asdasd</text>
+        <view class="user-container">
+                <!-- <open-data type="userAvatarUrl" class="avatar avatar-position"/> -->
+                <view class="avatar-container">
+                        <b-user-btn wx:if="{{!authorized}}" open-type="getUserInfo" class="avatar-position"
+                                bind:getuserinfo="onGetUserInfo">
+                                <image slot="img" class="avatar" src="/images/my.png" />
+                        </b-user-btn>
+                </view>
+                <!-- 登录 难点 服务器 微信支付 -->
+                <view wx:if="{{authorized}}" class="avatar-container avatar-position">
+                        <image src="{{userInfo.avatarUrl}}" class="avatar" />
+                </view>
+                <view class="data-container">
+                        <text class="nickname">{{userInfo.nickName == null?'点击左侧登录':userInfo.nickName}}</text>
+                        <view class="user-data">
+                                <text>获得证书:1</text>
+                                <text>积分值:1</text>
+                                <text>碳排放值:1</text>
+                                <text>碳中和值:1</text>
+                        </view>
+                </view>
+        </view>
+        <b-swiper images="{{images}}"/>
+        <view class="menu-container">
+                <b-menu menuText="步行"/>
+                <b-menu menuText="签到"/>
+                <b-menu menuText="低碳拍"/>
+                <b-menu menuText="机动车停驶"/>
+                <b-menu menuText="单车"/>
+        </view>
+        <view class="option-menu">
+                <b-option-menu menuImg="/images/my.png" menuText="个人碳足迹"/>
+                <b-option-menu menuImg="/images/my.png" menuText="发布碳中和项目" />
+        </view>
+        <view class="list">
+                <b-home-item />
+                <b-home-item />
+                <b-home-item />
+                <b-home-item />
+                <b-home-item />
+                <b-home-item />
+        </view>
 </view>
