@@ -6,6 +6,10 @@
     "pages/rank/rank",
     "pages/my/my"
   ],
+  "usingComponents": {
+    "van-button": "/dist/button/index",
+    "navigation-bar":"/components/navigationBar/index"
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#6a8bd8",

@@ -1,5 +1,4 @@
-.container{
-    display: inline-flex;
-    flex-direction: column;
-    width: 100%;
-  }
+.img {
+    width: 750rpx;
+    height: 1334rpx;
+}

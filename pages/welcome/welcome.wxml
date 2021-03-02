@@ -1,5 +1,3 @@
-<!--index.wxml-->
-<view class="container">
-        <navigation-bar />
-        <text>asdasd</text>
+<view>
+    <image class="img" src="/images/welcome.png"/>
 </view>
