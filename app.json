@@ -10,6 +10,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#6a8bd8",
     "navigationBarTitleText": "思路炭惠",
+    "navigationStyle": "custom",
     "navigationBarTextStyle":"white"
   },
   "sitemapLocation": "sitemap.json",

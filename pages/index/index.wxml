@@ -1,4 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-  
+        <navigation-bar />
+        <text>asdasd</text>
 </view>

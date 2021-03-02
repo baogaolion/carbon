@@ -1,2 +1,5 @@
-<!--pages/carbon/carbon.wxml-->
-<text>pages/carbon/carbon.wxml</text>
+<!--index.wxml-->
+<view class="container">
+    <navigation-bar />
+    <text>asdasd</text>
+</view>

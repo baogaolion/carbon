@@ -1,2 +1,5 @@
-<!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<!--index.wxml-->
+<view class="container">
+        <navigation-bar />
+        <text>asdasd</text>
+</view>

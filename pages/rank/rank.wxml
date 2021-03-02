@@ -1,2 +1,5 @@
-<!--pages/rank/rank.wxml-->
-<text>pages/rank/rank.wxml</text>
+<!--index.wxml-->
+<view class="container">
+        <navigation-bar />
+        <text>asdasd</text>
+</view>
