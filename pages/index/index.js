@@ -8,6 +8,7 @@ Page({
 
   },
   onLoad() {
+    this._setNavBar()
     if(!this._getFistEnter()) {
       wx.navigateTo({
         url: '../welcome/welcome',
@@ -19,6 +20,11 @@ Page({
   },
   _getFistEnter() {
     return wx.getStorageSync('firstEnter')
+  },
+  _setNavBar() {
+    wx.setNavigationBarColor({
+      frontColor: '#ffffff',
+      backgroundColor: '#133c88'
+    })
   }
-
 })

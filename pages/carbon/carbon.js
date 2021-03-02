@@ -26,7 +26,7 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
-
+        this._setNavBar()
     },
 
     /**
@@ -62,5 +62,11 @@ Page({
      */
     onShareAppMessage: function () {
 
+    },
+    _setNavBar() {
+      wx.setNavigationBarColor({
+        frontColor: '#ffffff',
+        backgroundColor: '#133c88'
+      })
     }
 })

@@ -8,9 +8,9 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#6a8bd8",
     "navigationBarTitleText": "思路炭惠",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle":"white"
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
@@ -21,26 +21,34 @@
           {
               "pagePath": "pages/index/index",
               "text": "首页",
-              "iconPath": "/images/tab/classic.png",
-              "selectedIconPath": "/images/tab/classic@highlight.png"
+              "color": "#333",
+              "selectedColor": "#15397c",
+              "iconPath": "/images/tab/home.jpg",
+              "selectedIconPath": "/images/tab/home@sel.jpg"
           },
           {
               "pagePath": "pages/carbon/carbon",
               "text": "碳惠项目",
-              "iconPath": "/images/tab/book.png",
-              "selectedIconPath": "/images/tab/book@highlight.png"
+              "selectedColor": "#15397c",
+              "color": "#333",
+              "iconPath": "/images/tab/carbon.jpg",
+              "selectedIconPath": "/images/tab/carbon@sel.jpg"
           },
           {
               "pagePath": "pages/rank/rank",
               "text": "榜单",
-              "iconPath": "/images/tab/my.png",
-              "selectedIconPath": "/images/tab/my@highlight.png"
+              "color": "#333",
+              "selectedColor": "#15397c",
+              "iconPath": "/images/tab/rank.jpg",
+              "selectedIconPath": "/images/tab/rank@sel.jpg"
           },
           {
               "pagePath": "pages/my/my",
               "text": "我的",
-              "iconPath": "/images/tab/my.png",
-              "selectedIconPath": "/images/tab/my@highlight.png"
+              "color": "#333",
+              "selectedColor": "#15397c",
+              "iconPath": "/images/tab/my.jpg",
+              "selectedIconPath": "/images/tab/my@sel.jpg"
           }
           
       ]
