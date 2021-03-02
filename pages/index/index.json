@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-button": "/dist/button/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "思路炭惠",
+    "navigationBarTextStyle": "black"
+  }
+}

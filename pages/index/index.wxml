@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <van-button type="primary">有赞测试</van-button>
+</view>
