@@ -5,7 +5,7 @@
     <!--自定义导航栏-->
     <view class="navigation-bar" style="{{'height:' + navigationBarHeight}}">
         <view class="navigation-buttons" style="{{'height:' + menuButtonHeight}}">
-            <image class="nav-img" src='/images/tab/home.jpg'/>
+            <image class="nav-img" src='/images/icon_logo.png'/>
             <text>丝路炭惠</text>
         </view> 
         <view class="navigation-title" style="{{'line-height:' + navigationBarHeight}}">{{title}}</view>
