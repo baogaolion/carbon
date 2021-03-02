@@ -23,7 +23,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -46,7 +46,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.15.0",
-  "appid": "wxfe4cccf2355d306d",
+  "appid": "wxbc72f3967f558f02",
   "projectname": "carbon",
   "debugOptions": {
     "hidedInDevtools": []

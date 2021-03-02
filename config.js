@@ -1,5 +1,5 @@
 const config = {
-    api_base_url : 'http://bl.talelin.com/v1/'
+    api_base_url : 'http://192.168.50.2/'
 }
 
 export {config}

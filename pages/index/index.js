@@ -38,9 +38,10 @@ Page({
       //   userInfo,
       //   authorized: true
       // })
-      console.log(userInfo)
-    }
+    } 
+    app.login(userInfo)
   },
+
   userAuthorized() {
     let that = this
     wx.getSetting({

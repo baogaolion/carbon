@@ -18,7 +18,7 @@ class HTTP{
             method:method,
             data:data,
             header:{
-                'content-type':'application/json'
+                'content-type':'application/x-www-form-urlencoded;charset=utf-8'
             },
             success:(res)=>{
                 const code = res.statusCode.toString()
