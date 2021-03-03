@@ -3,7 +3,7 @@
   <view class="header">
     <text class="title">个人中心</text>
     <view class="user-container">
-      <view class="avatar-container">
+      <view class="avatar-container" wx:if="{{!authorized}}">
         <b-user-btn wx:if="{{!authorized}}" open-type="getUserInfo" class="avatar-position"
           bind:getuserinfo="onGetUserInfo">
           <image slot="img" class="avatar" src="/images/my.png" />
@@ -11,11 +11,12 @@
         <text class="nickname">点击上方登录</text>
       </view>
       <!-- 登录 难点 服务器 微信支付 -->
-      <view wx:if="{{authorized}}" class="avatar-container avatar-position">
+      <view wx:if="{{authorized}}" class="avatar-container">
         <image src="{{userInfo.avatarUrl}}" class="avatar" />
-        <text class="nickname">{{userInfo.nickname}}</text>
+        <text class="nickname">{{userInfo.nickName}}</text>
       </view>
     </view>
-   
   </view>
+
+  <b-my-info class="myInfo" emission="12" neutralization="22"/>
 </view>

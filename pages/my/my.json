@@ -1,4 +1,5 @@
 {
   "usingComponents": {
+    "b-my-info":"/components/my/my-info/index"
   }
 }

@@ -28,10 +28,20 @@
 
 .nickname {
   color: #fff;
-  margin-bottom: 105rpx;
   font-size: 26rpx;
+  margin-top: 25rpx;
 }
 
 .avatar-container {
-  margin-bottom: 100rpx;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120rpx;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myInfo {
+  margin-top: -80rpx;
+  z-index: 100;
 }

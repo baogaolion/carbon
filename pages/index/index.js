@@ -34,10 +34,10 @@ Page({
   onGetUserInfo(event) {
     const userInfo = event.detail.userInfo
     if (userInfo) {
-      // this.setData({
-      //   userInfo,
-      //   authorized: true
-      // })
+      this.setData({
+        userInfo,
+        authorized: true
+      })
     } 
     app.login(userInfo)
   },

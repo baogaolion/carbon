@@ -1,0 +1,12 @@
+<view class="container">
+
+  <view class="left">
+    <text class="count">{{emission}} kg</text>
+    <text class="text">活动累计排放</text>
+  </view>
+  <view class="line" />
+  <view class="right">
+    <text class="count">{{neutralization}} kg</text>
+    <text class="text">已完成中和</text>
+  </view>
+</view>
